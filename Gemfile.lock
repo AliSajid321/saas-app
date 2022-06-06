@@ -45,6 +45,8 @@ GEM
     activerecord (6.0.5)
       activemodel (= 6.0.5)
       activesupport (= 6.0.5)
+    activerecord-multi-tenant (2.0.0)
+      rails (>= 5.2)
     activestorage (6.0.5)
       actionpack (= 6.0.5)
       activejob (= 6.0.5)
@@ -218,6 +220,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activerecord-multi-tenant
   bootsnap (>= 1.4.2)
   byebug
   capybara (>= 2.15)
